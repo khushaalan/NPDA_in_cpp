@@ -3,13 +3,13 @@
 	<automaton>&#13;
 		<!--The list of states.-->&#13;
 		<state id="0" name="q0">&#13;
-			<x>55.0</x>&#13;
-			<y>88.0</y>&#13;
+			<x>159.0</x>&#13;
+			<y>158.0</y>&#13;
 			<initial/>&#13;
 		</state>&#13;
 		<state id="1" name="q1">&#13;
-			<x>249.0</x>&#13;
-			<y>80.0</y>&#13;
+			<x>293.0</x>&#13;
+			<y>159.0</y>&#13;
 			<final/>&#13;
 		</state>&#13;
 		<!--The list of transitions.-->&#13;
@@ -17,6 +17,13 @@
 			<from>0</from>&#13;
 			<to>0</to>&#13;
 			<read>a</read>&#13;
+			<pop>Z</pop>&#13;
+			<push>AZ</push>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>0</to>&#13;
+			<read>b</read>&#13;
 			<pop/>&#13;
 			<push>A</push>&#13;
 		</transition>&#13;
@@ -26,13 +33,6 @@
 			<read>a</read>&#13;
 			<pop>A</pop>&#13;
 			<push/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>0</to>&#13;
-			<read>b</read>&#13;
-			<pop/>&#13;
-			<push>A</push>&#13;
 		</transition>&#13;
 	</automaton>&#13;
 </structure>
