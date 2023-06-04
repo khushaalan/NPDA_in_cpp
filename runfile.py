@@ -20,5 +20,5 @@ if __name__ == "__main__":
     if(args):
         if(args[0] == "git"):
             git()
-        else:
-            print("Invalid argument")
+        elif(args[0] == "run"):
+            main()
